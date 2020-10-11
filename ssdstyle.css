@@ -1,0 +1,186 @@
+html{
+  height:100%;
+  width:100%;
+  font-family: 'Poppins',sans-serif;
+
+}
+.navbar{
+    padding:0.5%;
+    top: 0;
+}
+
+
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+  }
+.carousel-inner{
+    width:100%;
+    max-height: 1000px;
+  }
+
+.carousel-caption{
+    position: absolute;
+    top:50%;
+}
+.navbar-nav li{
+    padding:10px;
+}
+.navbar-brand {
+    padding: 0 15px;
+    height: 15%;
+    line-height: 80px; 
+  }
+  
+body{
+    background-color: black;
+    color:floralwhite;
+    height:100%;
+    width:100%;
+    font-family: 'Poppins',sans-serif;
+}
+
+.carousel-item{
+    width:500%;
+}
+
+.jumbotron{
+    background-color: #950740;
+    color: floralwhite;
+    border-radius: 0;
+    padding:5%;
+    padding-left:18%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.display-4{
+    color: floralwhite; 
+}
+.lead{
+    color: floralwhite; 
+}
+hr{
+    background-color: ghostwhite;
+}
+
+
+
+h3{
+    color:floralwhite;
+}
+
+.padding{
+    padding-bottom: 5%;
+}
+
+.welcome{
+    width:75%;
+    margin:0 auto;
+    padding-top: 3%;
+}
+
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width:95%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.social a{
+    font-size:72px;
+    padding: 5%;
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+
+.fa-instagram{
+    color:#517fa4;
+}
+
+.fa-twitter{
+    color:#00aced;
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+
+footer{
+    background-color: #907163;
+    color: floralwhite;
+    padding-top: 5%;
+    font-family:Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+#inside_hobbies{
+
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}  
+#inside1{
+
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 10%;
+} 
+#inside2{
+
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 10%;
+}  
+#inside3{
+
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 10%;
+}  
+#inside4{
+
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 10%;
+}   
+
+#main_book{
+    padding-top: 2%;
+    text-align: center;
+}
+
+#cric{
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+.carousel-item{
+   width: 100%;
+}
+
+.fadein{
+    opacity: 0;
+}
+
+
+@media (max-width: 992px){
+    .social a{
+        font-size: 64px;
+        padding:5%;
+    }
+    .display-4{
+        font-size:200%;
+    }
+
+    .carousel-indicators{
+        display:none;
+    }
+
+}
